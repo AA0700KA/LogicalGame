@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sams9.project2.StartNim"
+    android:orientation="horizontal"
+    android:background="@drawable/fon"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:id="@+id/nim"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="@drawable/money2"
+        android:onClick="onClickNimGameBot"
+        android:text="\nPlayer VS Computer"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="320dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/players2"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:background="@drawable/black2"
+        android:onClick="onClickNimGame2Players"
+        android:text="\nPlaver VS Player"
+        android:textColor="@color/Red"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

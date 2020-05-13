@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sams9.project2.Rules"
+    android:orientation="horizontal"
+    android:background="@drawable/wood"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Правила:\nПравила нима просты. Игроки по очереди забирают одну или несколько фишек из любого ряда. Не разрешается за один ход брать фишки из нескольких рядов. Выигрывает тот, кто возьмет последнюю фишку (фишки). "
+        android:textAlignment="center"
+        android:textColor="@color/Yellow"
+        android:textSize="20dp"/>
+
+</LinearLayout>
